@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini WhatsApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <div class="sidebar">
+        <h3>Online Users</h3>
+        <ul id="users"></ul>
+    </div>
+
+    <div class="chat">
+        <div id="messages"></div>
+        <form id="form">
+            <input id="input" placeholder="Type message..." autocomplete="off" />
+            <button>Send</button>
+        </form>
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 25%;
+    background: #075E54;
+    color: white;
+    padding: 10px;
+}
+
+.chat {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+#messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: scroll;
+    background: #ece5dd;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 8px;
+    background: white;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #25D366;
+    border: none;
+}
